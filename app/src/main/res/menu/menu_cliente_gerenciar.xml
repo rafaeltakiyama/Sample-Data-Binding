@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_teste"
+        android:orderInCategory="300"
+        android:title="Teste"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_limpar"
+        android:orderInCategory="10"
+        android:title="Limpar"
+        app:showAsAction="always"/>
+
+</menu>

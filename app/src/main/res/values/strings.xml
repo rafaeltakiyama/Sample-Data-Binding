@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Data Binding Sample</string>
+
+    <string name="txt_title_dados_cadastrais">Dados Cadastrais</string>
+    <string name="txt_tipo">Tipo</string>
+    <string name="txt_endereco">Endereço</string>
+    <string name="txt_complemento">Complemento</string>
+    <string name="txt_bairro">Bairro</string>
+    <string name="txt_cidade">Cidade</string>
+    <string name="txt_cep">CEP</string>
+    <string name="txt_estado">Estado</string>
+    <string name="txt_telefone">Telefone</string>
+    <string name="txt_celular">Celular</string>
+    <string name="txt_email">E-mail</string>
+    <string name="txt_nome">Nome</string>
+</resources>
