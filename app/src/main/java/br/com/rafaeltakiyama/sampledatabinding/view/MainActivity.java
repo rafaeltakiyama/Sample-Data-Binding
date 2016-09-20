@@ -18,6 +18,7 @@ import br.com.rafaeltakiyama.sampledatabinding.viewmodel.UserViewModel;
  */
 public class MainActivity extends AppCompatActivity implements InterfaceClickListener {
 
+    //O nome é gerado a partir do layout XML
     private ActivityMainBinding binding;
 
     @Override
@@ -25,7 +26,10 @@ public class MainActivity extends AppCompatActivity implements InterfaceClickLis
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        //Substitui o setContentView
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+
+        //um getter e um setter foram gerados
         binding.setUserViewModel(new UserViewModel(this));
 
     }

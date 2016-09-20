@@ -1,6 +1,5 @@
 package br.com.rafaeltakiyama.sampledatabinding.viewmodel;
 
-import android.databinding.ObservableField;
 import android.support.annotation.NonNull;
 import android.view.View;
 
@@ -10,7 +9,6 @@ import java.io.Serializable;
  * Created by Rafael T Akiyama on 14/09/2016.
  */
 public class UserViewModel implements Serializable {
-    public ObservableField<String> text = new ObservableField<>();
     private InterfaceClickListener interfaceClick;
 
     private String nome;
